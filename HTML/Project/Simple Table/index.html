@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align: center;">Employee Table</h2>
+
+    <table>
+        <tr style="background-color: yellow;">
+            <th>Department</th>
+            <th>Name</th>
+            <th>E-mail</th>
+            <th>Years of Service</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Editorial</td>
+            <td>Joel Murach</td>
+            <td>joelmurach@yahoo.com</td>
+            <td>22</td>
+        </tr>
+        <tr style="background-color: yellow;">
+            <td>Anne Boehm</td>
+            <td>anne@murach.com</td>
+            <td>34</td>
+        </tr>
+        <tr>
+            <td>Zak Ruvalcaba</td>
+            <td>zak@modulemedia.com</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Marketing</td>
+
+            <td style="background-color: yellow;">Judy Taylor</td>
+            <td style="background-color: yellow;">judy@murach.com</td>
+            <td style="background-color: yellow;">39</td>
+        </tr>
+        <tr>
+            <td>Cyndi Vasquez</td>
+            <td>cyndi@murach.com</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Customer Service</td>
+            <td style="background-color: yellow;">Kelly Slivkoff</td>
+            <td style="background-color: yellow;">kelly@murach.com</td>
+            <td style="background-color: yellow;">25</td>
+        </tr>
+        <tr>
+            <td>Juliette Baylon</td>
+            <td>juliette@murach.com</td>
+            <td>1</td>
+        </tr>
+        <tr style="background-color: yellow; font-weight: bold;">
+            <td colspan="3" style=" text-align: right;">Total Years of Service</td>
+            <td style="font-weight: bold">105</td>
+        </tr>
+    </table>
+</body>
+</html>
